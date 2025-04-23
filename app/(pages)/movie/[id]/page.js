@@ -95,7 +95,7 @@ export default function MoviePage() {
             <p className="text-white/60 italic">No similar movies found.</p>
           ) : (
             similarMovies.map((similar) => (
-              <Link key={similar.id} href={`/movies/${similar.id}`}>
+              <Link key={similar.id} href={`/movie/${similar.id}`}>
                 <div className="w-40 bg-white/10 backdrop-blur p-3 rounded-xl border border-white/20 shadow-md hover:bg-white/20 transition duration-200 cursor-pointer">
                   <img
                     src={similar.poster}
