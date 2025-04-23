@@ -9,6 +9,7 @@ export default function Home() {
 
   console.log("Query:", query);
   console.log("Results:", results);
+
   async function search() {
     if (!query) {
       alert("Please enter a search term");
